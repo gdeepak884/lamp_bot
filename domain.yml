@@ -29,7 +29,8 @@ responses:
     - text: "Deepak Gupta created me."
 
   utter_faq/installation:
-  - text: "Follow these steps to use autogmeet -"
+  - text: |
+          "Follow these steps to use autogmeet -"
           "1) Download autogmeet extension for your browser,"
           "a) Firefox (https://addons.mozilla.org/en-US/firefox/addon/autogmeet/)"
           "2) Schedule meetings,"
@@ -45,11 +46,13 @@ responses:
   - text: "Please checkout our 'build' page and click on the 'Download Firefox Extension' button to download the extension."
 
   utter_faq/issues:
-  - text: "Sorry for the inconveniences caused!"
+  - text: |
+          "Sorry for the inconveniences caused!"
           "Please report your issue here, 'https://autogmeet.herokuapp.com/report'"
 
   utter_faq/feedback:
-  - text: "Thanks, Please provide your valuable feedback here,"
+  - text: |
+          "Thanks, Please provide your valuable feedback here,"
           "'https://autogmeet.herokuapp.com/feedback'"
 
   utter_outofscope:
