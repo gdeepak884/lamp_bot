@@ -44,6 +44,12 @@ nlu:
   examples: |
     - Awesome application.
     - cool
+    - good
+    - Thank you.
+    - thanks
+    - thanks for the application.
+    - Good work.
+    - nice work.
     - Good application
     - Good work
     - Working fine.

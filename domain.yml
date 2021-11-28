@@ -30,12 +30,18 @@ responses:
 
   utter_faq/installation:
   - text: |
-          "Follow these steps to use autogmeet -"
-          "1) Download autogmeet extension for your browser,"
-          "a) Firefox (https://addons.mozilla.org/en-US/firefox/addon/autogmeet/)"
-          "2) Schedule meetings,"
-          "3) Open the same browser and leave this page opened in a new tab (https://autogmeet.herokuapp.com/status), and"
-          "4) Now it's a time to sleep and leave your laptop/desktop/mac opened."
+          Follow these steps to use autogmeet -
+
+          1) Download autogmeet extension for your browser,
+            Firefox (https://addons.mozilla.org/en-US/firefox/addon/autogmeet/)
+
+          2) Schedule meetings,
+
+          3) Open the same browser and leave this page opened in a new tab (https://autogmeet.herokuapp.com/status), and
+
+          4) Now it's a time to sleep and leave your laptop/desktop/mac opened.
+          
+          and 
 
           "Having trouble while downloading?"
           "Videos: "
@@ -47,13 +53,13 @@ responses:
 
   utter_faq/issues:
   - text: |
-          "Sorry for the inconveniences caused!"
-          "Please report your issue here, 'https://autogmeet.herokuapp.com/report'"
+          Sorry for the inconveniences caused!
+          Please report your issue here, 'https://autogmeet.herokuapp.com/report'
 
   utter_faq/feedback:
   - text: |
-          "Thanks, Please provide your valuable feedback here,"
-          "'https://autogmeet.herokuapp.com/feedback'"
+          Thanks, Please provide your valuable feedback here,
+          'https://autogmeet.herokuapp.com/feedback'
 
   utter_outofscope:
   - text: "Sorry, We are unable help you on this."

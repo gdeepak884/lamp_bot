@@ -50,6 +50,7 @@ nlu:
 
 - intent: chitchat/bot_challenge
   examples: |
+    - Who are you? 
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
