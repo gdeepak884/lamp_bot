@@ -1,0 +1,49 @@
+version: "2.0"
+
+nlu:
+- intent: faq/installation
+  examples: |
+    - How to use this application.
+    - What all the steps i have to follow?
+    - Use
+    - How to use
+    - How to use autogmeet
+    - How to use lamp
+    - guide for installation.
+    - How to install autogmeet
+    - How to install lamp
+    - Get Started
+    - Steps to use.
+    - Installation
+
+- intent: faq/extension
+  examples: |
+    - Which extension i have to download?
+    - extension
+    - extension link
+    - autogmeet extension
+    - request extension
+    - requirements to use this application.
+
+- intent: faq/issues
+  examples: |
+    - I don't know, what happening.
+    - I am not able to login.
+    - I am getting error.
+    - I have not received any response.
+    - guide for issues.
+    - How to report issues.
+    - How to report an issue.
+    - Issues.
+    - Issue
+    - error
+    - issues
+    - Help
+
+- intent: faq/feedback
+  examples: |
+    - Awesome application.
+    - cool
+    - Good application
+    - Good work
+    - Working fine.

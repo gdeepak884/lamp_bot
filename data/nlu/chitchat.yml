@@ -1,0 +1,56 @@
+version: "2.0"
+
+nlu:
+- intent: chitchat/mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: chitchat/mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: chitchat/owner
+  examples: |
+    - who is the owner?
+    - who is the developer?
+    - who is the creator?
+    - who created me?
+    - who is the creator of this bot?
+    - who is the creator of this project?
+    - who is the creator of this app?
+    - who is the creator of this website?
+    - Your lover?
+    - Your creator?
+
+- intent: chitchat/bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

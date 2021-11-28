@@ -1,0 +1,63 @@
+version: "2.0"
+
+intents:
+  - init
+  - greet
+  - goodbye
+  - faq
+  - chitchat
+  - outofscope
+
+responses:
+  utter_init: 
+  - text: "Hi, how can I help you?"
+
+  utter_greet:
+  - text: "Hi! How are you?"
+
+  utter_chitchat/mood_unhappy:
+  - text: "Here is something to cheer you up:"
+    image: "https://www.memecreator.org/static/images/memes/5273405.jpg"
+
+  utter_chitchat/mood_great:
+  - text: "Great, carry on!"
+
+  utter_chitchat/bot_challenge:
+    - text: "Myself Riti, I'm your personal assistance for this app."
+
+  utter_chitchat/owner:
+    - text: "Deepak Gupta created me."
+
+  utter_faq/installation:
+  - text: "Follow these steps to use autogmeet -"
+          "1) Download autogmeet extension for your browser,"
+          "a) Firefox (https://addons.mozilla.org/en-US/firefox/addon/autogmeet/)"
+          "2) Schedule meetings,"
+          "3) Open the same browser and leave this page opened in a new tab (https://autogmeet.herokuapp.com/status), and"
+          "4) Now it's a time to sleep and leave your laptop/desktop/mac opened."
+
+          "Having trouble while downloading?"
+          "Videos: "
+          "1) https://youtu.be/-nPmMtwlelk (setup)"
+          "2) https://youtu.be/0qtBE3s41bc (use case)"
+
+  utter_faq/extension:
+  - text: "Please checkout our 'build' page and click on the 'Download Firefox Extension' button to download the extension."
+
+  utter_faq/issues:
+  - text: "Sorry for the inconveniences caused!"
+          "Please report your issue here, 'https://autogmeet.herokuapp.com/report'"
+
+  utter_faq/feedback:
+  - text: "Thanks, Please provide your valuable feedback here,"
+          "'https://autogmeet.herokuapp.com/feedback'"
+
+  utter_outofscope:
+  - text: "Sorry, We are unable help you on this."
+
+  utter_goodbye:
+    - text: "Bye"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
