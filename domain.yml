@@ -41,12 +41,12 @@ responses:
 
           4) Now it's a time to sleep and leave your laptop/desktop/mac opened.
           
-          and 
-
-          "Having trouble while downloading?"
-          "Videos: "
-          "1) https://youtu.be/-nPmMtwlelk (setup)"
-          "2) https://youtu.be/0qtBE3s41bc (use case)"
+          or 
+          
+          Having trouble while downloading?
+          Videos: 
+          1) https://youtu.be/-nPmMtwlelk (setup)
+          2) https://youtu.be/0qtBE3s41bc (use case)
 
   utter_faq/extension:
   - text: "Please checkout our 'build' page and click on the 'Download Firefox Extension' button to download the extension."
